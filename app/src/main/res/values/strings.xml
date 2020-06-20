@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">Univerzitet Educons</string>
+
+    <string name="nav_home">Pocetna</string>
+    <string name="nav_map">Mapa</string>
+    <string name="nav_user">Nalog</string>
+
+    <string name="home_oeduconsu">O Educonsu</string>
+    <string name="home_fakulteti">Fakulteti</string>
+    <string name="home_studije">Studije</string>
+    <string name="home_upisise">Upisi se</string>
+    <string name="home_nauka">Nauka i razvoj</string>
+    <string name="home_kontakt">Kontaktiraj nas</string>
+    <string name="home_istrazi">Istrazi univerzitet</string>
+    <string name="home_ulogujse">Uloguj se</string>
+    <string name="home_zastudente">Samo za studente</string>
+    <string name="home_dobrodosli">DOBRODOSLI</string>
+
+    <string name="oeduconsu_naslov">Misija i vizija</string>
+    <string name="oeduconsu_tekst">\n Univerzitet Educons u <b>Sremskoj Kamenici,</b> osnovan 2008. godine, dinamična je visokoškolska ustanova koja prati i usvaja naučne i obrazovne trendove, a trenutno se u njenom sastavu nalazi čak jedanaest fakulteta.\n\n
+        Poslednjih godina Univerzitet Educons uspešno razvija značajne izmene u konceptu studiranja koje se odnose na način transfera znanja u nastavno-naučnoj oblasti. Takozvani BLENDED LEARNING koncept nastave prerastao je tradicionalni sistem predavanja (repetitivna matrica studiranja) na koji su profesori i studenti navikli. Umesto toga, nova matrica studiranja podrazumeva interaktivne razgovore i razmenu znanja kroz diskusije studenata u grupama sa profesorima (koji sada postaju korektori toka misli i zaključaka studenata u vezi sa tematizacijom određenih problema), u toku i mimo nastave, uz dodatno korišćenje svih tehnoloških pogodnosti (tablet računar, ipad, laptop računar, i sl.)\n\n
+        Druga važna inovacija u okviru novog modela studiranja na Univerzitetu Educons jeste tendencija da se Univerzitet transformiše u status FONDACIJE tj. fondirane ustanove (ugledni model ovakvog funkcionisanja uspostavljen je na Univerzitetu Stanford, SAD). Ovde je reč o ulasku Univerziteta u proces tzv. PROJEKTNOG STUDIRANJA, što podrazumeva suštinski novi nivo povezivanja sa kompanijama i formulisanje odnosa fondator (kompanija) i fondacija (Univerzitet), a to je, naposletku, esencijalna podrška životnom interesu studenta da pronađe  dobar i siguran posao, ali istovremeno i mehanizam koji pokreće njegov motiv za učenje. Studijski programi sada se sinhronizuju s realnim poslovnim potrebama kompanija, uz mnogo prakse, a one, opet, blagovremeno određuju konkretan broj studenata  koji žele da zaposle.\n\n
+        Treća krucijalna novina vezana za Univerzitet jeste formiranje MEĐUNARODNOG KAMPUSA UNIVERZITETA EDUCONS koji, kroz izuzetna ulaganja, nudi visok nivo studentskog standarda i predstavlja prvi primer takve vrste kada je u pitanju privatno visoko školstvo u regiji Zapadnog Balkana. Naime, od školske 2015/2016. godine, u sastavu Univerziteta nalazi se i moderno opremljen studentski dom, a od septembra iste godine zidanje kampusa biće nastavljeno priključivanjem sportske hale kojom će najzad biti ostvaren zdrav koncept studiranja, karakterističan za Zapad: učim – živim – bavim se sportom.\n\n
+        <b>Misija</b> Univerziteta Educons je da obezbedi funkcionalnu sintezu tradicionalnog i inovativnog obrazovanja, omogućavajući svojim studentima sticanje primenljivih znanja i diploma za novo vreme koje nosi obeležje globalnog i multidisciplinarnog pristupa društvenim procesima. Kod studenata razvijamo kreativnost i samostalnost u radu, sposobnost za preduzetničko, inovativno razmišljanje, nov pristup problemima i istraživački duh. Našom vizijom želimo da doprinesemo sveukupnoj transformaciji društva kontinuiranim inoviranjem u obrazovnom procesu, istraživanju, kreativnosti i preduzetništvu.\n\n
+        <b>Vizija</b> budućnosti Univerziteta Educons zasnovana je na činjenici da se društva u regionu jugoistočne i istočne Evrope nalaze u promenama, procesu reformi i tranzicije ka građanskom, demokratskom društvu utemeljenom na vladavini prava i tržišnoj ekonomiji sa dominacijom privatnog vlasništva. Nadamo se da ćete nam ukazati poverenje u aktuelnom društvenom trenutku, poštujući, pre svega, akademsku slobodu, težnju ka obrazovnoj i sveukupnoj izvrsnosti, socijalnu odgovornost i transparentnost kao naše bazične vrednosti.\n\n
+        <b>Znanje je moć! Obrazovanjem dobijate mogućnost da birate posao, dok u suprotnom, posao bira Vas!</b></string>
+
+    <string name="fakulteti_naslov">Fakulteti</string>
+
+    <string name="kontaktiraj_naslov">Kontaktiraj nas</string>
+    <string name="kontaktiraj_naslov1">KONTAKT</string>
+
+    <string name="nauka_naslov">Nauka</string>
+
+    <string name="studije_naslov">Studije</string>
+
+    <string name="upisise_naslov">Upisi se</string>
+    <string name="upisise_naslov1">Konkurs za upis studenata u novu školsku 2020/2021.godinu</string>
+    <string name="upisise_naslov2">UPISI SE</string>
+    <string name="upisise_naslov3">POSTANI DEO GENERACIJE 2020/21</string>
+    <string name="upisise_naslov4">PRVI KORAK \nIZABERI STEPEN OBRAZOVANJA</string>
+    <string name="upisise_pasus1">Pravo upisa na I godinu osnovnih akademskih studija imaju kandidati sa prethodno stečenim srednjim obrazovanjem u četvorogodišnjem trajanju, a na II, III i IV godinu osnovnih akademskih studija mogu se upisati kandidati saglasno odluči komisije Fakulteta. saznaj vise.</string>
+    <string name="upisise_pasus2">Pravo upisa na master akademske studije koje traju dve godine (i vrednuju se sa 120 ESPB) imaju kandidati sa završenim osnovnim akademskim studijama prvog stepena i ostvarenih 180 ESPB iz odgovarajućeg polja, a iz drugih polja u skladu sa odlukom komisije Fakulteta. saznaj vise.</string>
+    <string name="upisise_pasus3">Pravo upisa na I godinu doktorskih studija imaju kandidati sa završenim master akademskim studijama, koji su u prethodnom školovanju stekli najmanje 300 ESPB bodova i ukupnom prosečnom ocenom na osnovnim i master studijama od najmanje 8, kao i uspunjenim drugim uslovima u skladu sa Zakonom, Pravilnikom i studijskim programima. saznaj vise.</string>
+    <string name="upisise_naslov5">DRUGI KORAK \nIZABERI PROGRAM</string>
+    <string name="upisise_pasus5">Univerzitet Educons upisuje studente na sledece studijske programe:</string>
+    <string name="upisise_it">FAKULTET INFORMACIONIH TEHNOLOGIJA</string>
+    <string name="upisise_pe">FAKULTET POSLOVNE EKONOMIJE</string>
+    <string name="upisise_zs">FAKULTET ZASTITE ZIVOTNE SREDINE</string>
+    <string name="upisise_sb">FAKULTET STUDIJE BEZBEDNOSTI</string>
+    <string name="upisise_ep">FAKULTET EKOLOSKE POLJOPRIVREDE</string>
+    <string name="upisise_dp">FAKULTET DIGITALNE PRODUKCIJE</string>
+    <string name="upisise_ks">AKADEMIJA KLASICNOG SLIKARSTVA</string>
+    <string name="upisise_uf">UCITELJSKI FAKULTET</string>
+    <string name="upisise_naslov6">TRECI KORAK \nPRIJAVI SE</string>
+    <string-array name="fakulteti">
+        <item>Fakultet informacionih tehnologija</item>
+        <item>Fakultet poslovne ekonomije</item>
+        <item>Fakultet zastite zivotne sredine</item>
+        <item>Fakultet studije bezbednosti</item>
+        <item>Fakultet ekoloske poljoprivrede</item>
+        <item>Fakultet digitalne produkcije</item>
+        <item>Akademija klasicnog slikarstva</item>
+        <item>Uciteljski fakultet</item>
+    </string-array>
+    <string name="upisise_naslov7">CETVRTI KORAK \nUPISI SE</string>
+    <string name="upisise_pasus6">Ukoliko se prijavis elektronskim putem, dostavljas originlanu dokumentaciju prilikom upisa.
+        \n\nPrijave se podnose na sledece adrese:
+        \nUniverzitet Educons, Sremska Kamenica, ul.Vojvode putnika 87. i 85.</string>
+
+    <string name="it_naslov">Informacione tehnologije</string>
+
+    <string name="mapa_naslov">Izaberite</string>
+    <string name="raspored_nastava">Nastava</string>
+    <string name="raspored_vezbe">Vezbe</string>
+    <string name="raspored_ispit">Ispiti</string>
+    <string name="obavestenja_it">Obavestenja</string>
+
+
+</resources>

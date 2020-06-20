@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#E86A5C</color>
+    <color name="colorPrimaryDark">#E34D3D</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="colorWhite">#DFFFFF</color>
+    <color name="colorBlack">#000000</color>
+    <color name="colorHomeBG">#EBEBEB</color>
+    <color name="colorBGIT">#FAC321</color>
+    <color name="colorBGPE">#EC5B24</color>
+    <color name="colorBGZS">#74B148</color>
+    <color name="colorBGSB">#587234</color>
+    <color name="colorBGEP">#87509F</color>
+    <color name="colorBGDP">#562B90</color>
+    <color name="colorBGKS">#4AC1D7</color>
+    <color name="colorBGUF">#D71C5F</color>
+</resources>

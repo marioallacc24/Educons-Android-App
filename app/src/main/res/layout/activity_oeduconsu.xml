@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorHomeBG"
+    tools:context=".OEduconsu">
+
+    <RelativeLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/baner"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/o_educonsu_baner" />
+
+            <LinearLayout
+                android:paddingTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:onClick="goBack"
+                    android:id="@+id/back_btn"
+                    android:background="@drawable/ic_keyboard_arrow_left_black_24dp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:text="@string/oeduconsu_naslov"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/card"
+            android:layout_margin="20dp"
+            app:cardCornerRadius="20dp"
+            android:layout_below="@+id/baner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:layout_marginTop="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="100dp"
+                    app:srcCompat="@drawable/edu_logo" />
+
+                <TextView
+                    android:layout_margin="20dp"
+                    android:id="@+id/tekst"
+                    android:textColor="@color/colorBlack"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:text="@string/oeduconsu_tekst"/>
+            </LinearLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <LinearLayout
+            android:paddingBottom="50dp"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:layout_below="@id/card"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <Button
+                android:onClick="facebook"
+                android:layout_marginRight="40dp"
+                android:id="@+id/facebook_btn"
+                android:background="@drawable/ic_facebook"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            <Button
+                android:onClick="instagram"
+                android:id="@+id/twitter_btn"
+                android:background="@drawable/ic_instagram"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+            <Button
+                android:onClick="linkedin"
+                android:layout_marginLeft="40dp"
+                android:id="@+id/linkedin_btn"
+                android:background="@drawable/ic_linkedin"
+                android:layout_width="50dp"
+                android:layout_height="50dp"/>
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+
+</ScrollView>

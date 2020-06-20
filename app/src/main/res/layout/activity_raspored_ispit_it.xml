@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IT.RasporedNastavaIT">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/baner"
+            android:layout_width="match_parent"
+            android:layout_height="200dp">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:scaleType="fitXY"
+                android:src="@drawable/it_baner" />
+
+            <LinearLayout
+                android:paddingTop="30dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:onClick="goBack"
+                    android:id="@+id/back_btn"
+                    android:background="@drawable/ic_keyboard_arrow_left_black_24dp"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:layout_gravity="center"
+                    android:textSize="30sp"
+                    android:textStyle="bold"
+                    android:textColor="@color/colorWhite"
+                    android:text="@string/raspored_ispit"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+        </RelativeLayout>
+
+
+
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:layout_margin="20dp"
+            android:layout_below="@id/baner"
+            android:id="@+id/recycleview"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+        </androidx.recyclerview.widget.RecyclerView>
+
+
+
+    </RelativeLayout>
+
+</ScrollView>

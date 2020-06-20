@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorHomeBG"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:background="@color/colorPrimaryDark">
+        <TextView
+            android:id="@+id/trenutniDatum"
+            android:layout_marginTop="10dp"
+            android:paddingLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="datum"
+            android:textSize="18sp"
+            android:textColor="@color/colorWhite"/>
+        <TextView
+            android:paddingLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home_dobrodosli"
+            android:textColor="@color/colorWhite"
+            android:textAllCaps="true"
+            android:textStyle="bold"
+            android:textSize="40sp"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="20dp"
+            android:background="@color/colorPrimary">
+
+            <LinearLayout
+
+                android:paddingLeft="20dp"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_ulogujse"
+                    android:textColor="@color/colorWhite"
+                    android:textStyle="bold"
+                    android:textSize="20sp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/home_zastudente"
+                    android:textColor="@color/colorWhite"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/login_btn"
+                android:layout_marginRight="20dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/ic_input_white_24dp"
+                android:layout_alignParentRight="true"
+                android:layout_width="24dp"
+                android:layout_height="wrap_content"/>
+
+        </RelativeLayout>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/home_istrazi"
+        android:textSize="15sp"
+        android:textStyle="bold"
+        android:paddingLeft="50dp"
+        android:paddingTop="10dp"
+        />
+
+    <GridLayout
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:columnCount="2"
+        android:columnOrderPreserved="false"
+        android:rowCount="3">
+
+        <RelativeLayout
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/o_educonsu_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00E9E9E9" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/o_educonsu_btn" />
+
+                <TextView
+                    android:textSize="20sp"
+                    android:paddingBottom="20dp"
+                    android:paddingLeft="10dp"
+                    android:layout_alignBottom="@id/o_educonsu_btn"
+                    android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="O Educosnu"
+                    android:textColor="@color/colorWhite"/>
+
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/fakulteti_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00E9E9E9" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/fakulteti_btn" />
+
+            <TextView
+                android:textSize="20sp"
+                android:paddingBottom="20dp"
+                android:paddingLeft="10dp"
+                android:layout_alignBottom="@id/fakulteti_btn"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/home_fakulteti"
+                android:textColor="@color/colorWhite"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/studije_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00E9E9E9" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/studije_btn" />
+
+            <TextView
+                android:textSize="20sp"
+                android:paddingBottom="20dp"
+                android:paddingLeft="10dp"
+                android:layout_alignBottom="@id/studije_btn"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/home_studije"
+                android:textColor="@color/colorWhite"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/upisise_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00E9E9E9" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/upisise_btn" />
+
+            <TextView
+                android:textSize="20sp"
+                android:paddingBottom="20dp"
+                android:paddingLeft="10dp"
+                android:layout_alignBottom="@id/upisise_btn"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/home_upisise"
+                android:textColor="@color/colorWhite"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/nauka_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00E9E9E9" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/nauka_razvoj_btn" />
+
+            <TextView
+                android:textSize="20sp"
+                android:paddingBottom="20dp"
+                android:paddingLeft="10dp"
+                android:layout_alignBottom="@id/nauka_btn"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/home_nauka"
+                android:textColor="@color/colorWhite"/>
+
+        </RelativeLayout>
+        <RelativeLayout
+            android:layout_height="150dp"
+            android:layout_width="150dp"
+            android:layout_margin="10dp">
+
+            <Button
+                android:id="@+id/kontaktiraj_btn"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#00E9E9E9" />
+
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                app:srcCompat="@drawable/kontaktiraj_btn" />
+
+            <TextView
+                android:textSize="20sp"
+                android:paddingBottom="20dp"
+                android:paddingLeft="10dp"
+                android:layout_alignBottom="@id/kontaktiraj_btn"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                android:text="@string/home_kontakt"
+                android:textColor="@color/colorWhite"/>
+
+        </RelativeLayout>
+
+
+
+    </GridLayout>
+
+
+</LinearLayout>
